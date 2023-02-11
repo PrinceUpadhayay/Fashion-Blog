@@ -31,6 +31,7 @@ body{
 .slider{
     font-family: "Oswald";
     background-color: white;
+    padding-bottom: 15px;
 }
 .slider-content{
     text-align: center;
@@ -54,16 +55,13 @@ body{
 .slider-image-content-div{
     position: relative;
 }
-.slider-image-content{
-    position: absolute;
-}
 .slider-image-inner-content{
     position: absolute;
     z-index: 1;
     color: white;
     font-size: 35px;
     letter-spacing: 4px;
-    margin-top: 25%;
+    top: 25%;
     padding: 20px;
     font-family: "Oswald";
 }
@@ -85,3 +83,101 @@ body{
     
     opacity: 1 ;
 }
+/* slider section End  here  */
+
+/* main content start */
+.main-content{
+    width: 60%;
+    align-items: center;
+    display: flex;
+    padding: 0px 15px;
+    
+}
+.main-content-left{
+    background-color: white;
+    border: 2px solid black;
+}
+
+.post-head-container{
+
+    text-align: center;
+    font-family: "Oswald";
+}
+.post-head-container h2{
+    padding: 10px 0;
+}
+.post-head-container p{
+    padding: 10px 0;
+    font-size: 18px;
+}
+.post-head-container p span{
+    background-color: #fff;
+    opacity: 0.60;
+}
+.post-image-content{
+    padding: 15px 15px;
+}
+.post-image img{
+    width: 100%;
+  
+}
+.post-middel-content{
+    margin-top: 15px;
+    padding: 15px;
+}
+.post-middel-button-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.post-button-left button{
+    padding: 10px 15px;
+}
+
+.post-button-right button{
+    padding: 7px 24px 7px 18px;
+    background-color: black;
+    color: white;
+}
+.post-button-right span{
+    border: 1px solid;
+    background-color: white;
+    color: black;
+    padding: 0px 5px;
+}
+.post-button-right button:hover{
+    background-color: #ccc;
+    color: black;
+}
+.post-footer-container{
+    border: 2px solid black;
+    display: flex;
+    font-family: "Oswald";
+    
+}
+.post-footer-image{
+    width: 10%;
+    padding: 15px;
+}
+.post-footer-image img{
+    width: 90px;
+}
+.post-footer-content{
+    padding:35px;
+}
+.post-footer-content span{
+    padding-right: 10px;
+    font-size: 18px;
+    color: black;
+    
+}
+.post-footer-content p{
+    padding: 10px;
+    
+    
+}
+.post-footer-content p:first{
+    background-color: #fff;
+    opacity: 0.60;
+}
+   
