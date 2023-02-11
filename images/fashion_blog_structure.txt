@@ -1,0 +1,73 @@
+ Fashion Blog Template 
+ 
+ 1) Navbar
+ 
+ Using Justify conetent()
+   1.Icons in left side.
+   2.secarch bar icon in right side.
+   
+ 2) Slider
+   1. Heading.
+   2. Paragraph using one word for span.
+   3.Girl image.
+   4.heading + Button
+   
+  3) 1st Title heading part.
+  
+   1.heading 
+   2. picture.
+   3.paragraph.
+   4. 2 button use left/right.
+   5.hr tag used.
+   6.images /heading/paragraph.
+   
+   4) 2nd title heading part.
+   
+    1.heading 
+    2.picture.
+    3.paragraph.
+    4.2 button use left/right.
+    5.hr tag used.
+	
+	5) 3rd title heading part
+	
+	1.heading 
+    2.picture.
+    3.paragraph.
+    4.2 button use left/right.
+    5.hr tag used.
+	
+	6. My name
+	 1.picture
+	 2.heading
+	 3.paragraph
+	 
+	7.popular post
+     1.heading
+	 2.ul
+	 3.images/heading/paragraph.
+	 
+	 
+	8. Advertising  
+	  1.background color/heading center.
+	  
+	9) tags section
+
+	   1.background-color/border. using span tag.
+	 
+	10.inspiration section
+      1.images 
+
+
+    11) Follow me Section.
+      1.icons used
+
+	12)subscribe section
+      1.paragraph
+      2.input
+      3.button
+
+    13)fotter 
+	 1.button
+	 2.paragraph.
+    	  

@@ -1,0 +1,108 @@
+Nav bar section
+1 div-navbar
+		div -navbar items 2 times div 
+			navbar-item-icons
+
+
+
+slider section
+2) div-slider
+	slider-content
+			slider-content-div
+	
+
+	slider-image-content-div
+			slider-image-content(div)
+			
+			
+main content
+3.	div-main content
+
+		main-content-left
+		
+			main-post
+					post-head-container
+					post-image-content
+						post-image
+					
+					post-middel-content
+						post-middel-button-container
+							post-button-left
+							post-button-right
+					post-footer-container
+						post-footer-image
+						post-footer-content
+						
+			main-post
+					post-head-container
+						post-image-content
+							post-image
+						
+						post-middel-content
+							post-middel-button-container
+								post-button-left
+								post-button-right
+			
+			main-post
+					post-head-container
+						post-image-content
+							post-image
+						
+						post-middel-content
+							post-middel-button-container
+								post-button-left
+								post-button-right
+			
+			
+			
+		main-content-right
+		
+			div-introduction-conatiner
+				introduction-image-conatiner
+				introduction-content
+				
+				
+			div-popular-post-conatiner
+				popular-post-head
+				popular-post-content-conatiner
+					popular-post-list-conatiner
+						popular-post-image
+						popular-post-content
+					
+					popular-post-list-conatiner
+						popular-post-image
+						popular-post-content
+						
+				
+					popular-post-list-conatiner
+						popular-post-image
+						popular-post-content
+				
+			div-advertise-conatiner
+				advertise-head
+				advertise-content
+				
+				
+			div-tag-conatiner
+				tag-head
+				tag-content
+				
+				
+			div-insipirtaion-conatiner
+				insipirtaion-head
+				insipirtaion-image-container
+				
+				
+			div-followme-conatiner
+				followme-head
+				followme-content
+				
+				
+			div-subscribe-conatiner
+				subscribe-head
+				subscribe-content
+			
+			
+	footer
+		footer-button-container
+		fotter-head
