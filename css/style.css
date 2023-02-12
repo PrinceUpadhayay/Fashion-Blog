@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #f1f1f1
+    background-color: #f1f1f1 ; 
 }
 /* navbar section start here  */
 
@@ -30,13 +30,14 @@ body{
 /* slider section start here */
 .slider{
     font-family: "Oswald";
-    background-color: white;
-    padding-bottom: 15px;
+    /* background-color: white; */
+    padding-bottom: 0px;
 }
 .slider-content{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 60px;
+    background-color: white;
 }
 .slider-content h1{
     font-size: 48px;
@@ -87,19 +88,20 @@ body{
 
 /* main content start */
 .main-content{
-    width: 60%;
-    align-items: center;
     display: flex;
-    padding: 0px 15px;
-    
+    padding: 15px;
+    flex-wrap: wrap;
 }
 .main-content-left{
-    background-color: white;
-    border: 2px solid black;
+    background-color: #f1f1f1;
+    width: 66%;
+    padding: 0 10px ;
 }
-
+.main-post{
+   margin-bottom: 30px ;
+    background-color: white ;
+}
 .post-head-container{
-
     text-align: center;
     font-family: "Oswald";
 }
@@ -150,10 +152,8 @@ body{
     color: black;
 }
 .post-footer-container{
-    border: 2px solid black;
     display: flex;
     font-family: "Oswald";
-    
 }
 .post-footer-image{
     width: 10%;
@@ -169,15 +169,238 @@ body{
     padding-right: 10px;
     font-size: 18px;
     color: black;
-    
 }
 .post-footer-content p{
     padding: 10px;
-    
-    
 }
 .post-footer-content p:first{
     background-color: #fff;
     opacity: 0.60;
 }
-   
+
+ /* main content left End here   */
+
+  /* main content right start here */
+
+  /* introduction start here  */
+
+.main-content-right{
+   width: 34%;
+    font-family: "Open Sans";
+    padding: 0 10px ;
+ }
+ .introduction-conatiner{
+    background-color: #000;
+ }
+
+.introduction-conatiner img{
+    width: 100%;
+ }
+ 
+.introduction-content{
+    color: white;
+    padding: 20px ;
+}
+  /* introduction end here  */
+ 
+ /* popular-post start here  */
+ 
+ .popular-post-conatiner{
+    margin-top: 30px;
+ }
+ .popular-post-content-conatiner h3{
+    background-color: black;
+    color: white;
+    padding: 15px 15px;
+ }
+ .popular-post-head{
+    color: white;
+ }
+ .popular-post-list-conatiner{
+    display: flex;
+    background-color: white;
+ }
+ .popular-post-list-conatiner:hover{
+    background-color: grey;
+ }
+
+.popular-post-image{
+    width :15% ; 
+    margin-right: 10px;
+}
+ .popular-post-image img{
+    width: 100%;
+    padding: 10px 10px;
+ }
+ .popular-post-content{
+    padding-top: 5px;
+ }
+ .popular-post-content p{
+    font-size: 18px;
+    color: black;
+    padding:5px;
+    font-family: "Oswald";
+ }
+ /* popular-post end here  */
+
+  /* Advertising start here  */
+   .advertising-container{
+    margin-top: 30px;
+   }
+    
+.advertising-head{
+    padding: 15px 15px;
+    font-family: "Oswald";
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.advertise-content{
+    border: 2px solid blue;
+    background-color: grey;
+    padding: 50px;
+    text-align: center;
+}
+.advertising-content-conatiner{
+    text-align: center;
+    background-color: white;
+    padding: 40px 15px;
+}
+.advertising-content-conatiner p{
+    background-color: grey;
+    padding: 60px 20px;
+}
+  /* Advertising End here  */
+    
+/* tags start here */
+.tag-container{
+     margin-top: 30px;
+}
+.tag-head{
+     padding: 15px 15px;
+    font-family: "Oswald";
+    background-color: black;
+    color: white;
+}
+.tag-content-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}
+.tag-content p{
+    padding: 5px 0 5px 0;
+    background-color: fff;
+}
+/* tag ens here */
+
+/* <!-- inspiration start here --> */
+
+.insipirtaion-conatiner{
+    margin-top: 30px;
+}
+.insipirtaion-head{
+    padding: 15px 15px;
+    font-family: "Oswald";
+    background-color: black;
+    color: white;
+}
+.insipirtaion-image-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.insipirtaion-image-list{
+    display: flex;
+}
+.insipirtaion-image-list img{
+    width: 100%;
+    padding: 10px 10px;
+    background-color: #fff;
+}
+/* <!-- inspiration end here --> */
+
+/* follow me start here */
+.followme-container{
+    margin-top: 30px;
+}
+.followme-head{
+    padding: 15px 15px;
+    font-family: "Oswald";
+    background-color: black;
+    color: white;
+}
+.followme-content{
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+}
+.followme-content-list i:hover{
+    opacity: 0.60;
+}
+/* follow me end here */
+
+/* <!-- subscribe start here --> */
+
+.subscribe-conatiner{
+    margin-top: 30px;
+}
+.subscribe-head{
+    padding: 15px 15px;
+    font-family: "Oswald";
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+.subscribe-content-conatiner p{
+    margin-bottom: 10px;
+}
+.subscribe-content-conatiner input{ 
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+.subscribe-content-conatiner button{
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+.subscribe-content-conatiner button:hover{
+    background-color: #ccc;
+    color: #000;
+}
+/* <!-- subscribe end here --> */
+
+/* footer start here */
+
+.footer-container{
+    background-color: #616161;
+    padding: 50px;
+}
+.footer-head button{
+    padding: 12px 30px;
+    background-color: #000;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.footer-head button:hover{
+    background-color: #ccc;
+    color: #000;
+}
+.footer-content{
+    font-size: 18px;
+    padding-top: 30px;
+    color: white;
+}
+.footer-content a{
+    color: white;
+}
+/* footer End here */
+
+
+
