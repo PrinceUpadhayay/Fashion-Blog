@@ -438,14 +438,16 @@ body{
         padding: 0;
     }
 }
-@media (max-width:900px){
-    .slider-i
+@media (max-width:900px)
+{
+    .main-content-left{
+        width: 100%;
+    }
+
+
     .main-content-right{
         display: block;
         width: 100%;
     }
-    .main-content-left{
-        width: 100%;
-    }
+    
 }
-
