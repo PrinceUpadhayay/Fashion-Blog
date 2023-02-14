@@ -426,7 +426,20 @@ body{
 
 /* media Query start here */
 
+@media (max-width:600px){
+    .slider-image-inner-content h2{
+        display: none;
+    }
+    .post-footer-container{
+        display: block;
+        
+    }
+    .post-footer-content{
+        padding: 0;
+    }
+}
 @media (max-width:900px){
+    .slider-i
     .main-content-right{
         display: block;
         width: 100%;
