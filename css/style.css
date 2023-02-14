@@ -66,7 +66,7 @@ body{
     color: white;
     font-size: 35px;
     letter-spacing: 4px;
-    top: 25%;
+    top: 20%;
     padding: 20px;
     font-family: "Oswald";
 }
@@ -93,8 +93,10 @@ body{
 /* main content start */
 .main-content{
     display: flex;
-    padding: 15px;
+    padding: 10px;
     flex-wrap: wrap;
+    font-family: "Open Sans";
+    font-size: 15px;
 }
 .main-content-left{
     background-color: #f1f1f1;
@@ -131,6 +133,7 @@ body{
     margin-top: 15px;
     padding: 15px;
 }
+
 .post-middel-button-container{
     display: flex;
     justify-content: space-between;
@@ -138,6 +141,7 @@ body{
 }
 .post-button-left button{
     padding: 10px 15px;
+    margin-bottom: 20px;
 }
 
 .post-button-right button{
@@ -190,7 +194,6 @@ body{
 
 .main-content-right{
    width: 34%;
-    font-family: "Open Sans";
     padding: 0 10px ;
  }
  .introduction-conatiner{
@@ -216,6 +219,7 @@ body{
     background-color: black;
     color: white;
     padding: 15px 15px;
+    font-size: 25x;
  }
  .popular-post-head{
     color: white;
@@ -240,7 +244,7 @@ body{
     padding-top: 5px;
  }
  .popular-post-content p{
-    font-size: 18px;
+    font-size: 15px;
     color: black;
     padding:5px;
     font-family: "Oswald";
@@ -268,7 +272,8 @@ body{
 .advertising-content-conatiner{
     text-align: center;
     background-color: white;
-    padding: 40px 15px;
+    padding: 15px 25px;
+    height: 175px;
 }
 .advertising-content-conatiner p{
     background-color: grey;
@@ -285,15 +290,25 @@ body{
     font-family: "Oswald";
     background-color: black;
     color: white;
+    font-size: 20px;
 }
 .tag-content-container{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: white;
+}
+.head{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+.tag-content-container span{
+    padding-left: 10px;
+    padding-right: 15px;
+    margin-top: 10px;
+    font-size: 16px;
 }
 .tag-content p{
     padding: 5px 0 5px 0;
-    background-color: fff;
 }
 /* tag ens here */
 
@@ -307,6 +322,7 @@ body{
     font-family: "Oswald";
     background-color: black;
     color: white;
+    font-size: 20px;
 }
 .insipirtaion-image-container{
     display: flex;
@@ -332,6 +348,7 @@ body{
     font-family: "Oswald";
     background-color: black;
     color: white;
+    font-size: 20px;
 }
 .followme-content{
     padding: 10px;
@@ -354,6 +371,7 @@ body{
     background-color: black;
     color: white;
     margin-bottom: 10px;
+    font-size: 20px;
 }
 .subscribe-content-conatiner p{
     margin-bottom: 10px;
@@ -406,5 +424,15 @@ body{
 }
 /* footer End here */
 
+/* media Query start here */
 
+@media (max-width:900px){
+    .main-content-right{
+        display: block;
+        width: 100%;
+    }
+    .main-content-left{
+        width: 100%;
+    }
+}
 
